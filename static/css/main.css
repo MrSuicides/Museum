@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+
+#top {
+  font-family: 'Montserrat', sans-serif;
+
+  width: 100%;
+  font-size: 2em;
+  height: 100%;
+  background-image: url("image1.jpg");
+  background-blend-mode: multiply;
+  background-color: #2e3a44;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+#top h1 {
+  padding-top: 20%;
+}
+
+#top h3 {
+  color: #ccc;
+}
+
+#top input {
+  margin-top: 60px;
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+#top input:focus {
+  width: 400px;
+}
+button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+/* Блок с возможностями */
+
+.content{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+div.content img{
+	padding:30px 60px;
+	width: 400px;
+}
+div.content a img{
+	width: 80px;
+	padding: 5px;
+}
+#main  {
+  padding: 100px 20%;
+  width: 60%;
+  float: left;
+  background-color: #f6f6f6;
+  border-top: 1px solid silver;
+  color: #363030;
+  font-size: 1.3em;
+}
+
+
+#main div {
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+}
+
+#main h2 {font-size: 2em}
+#main h3 {
+  padding-top: 10px;
+  color: #827d7d;
+}
+#main ul {color: #827d7d}
+
+
